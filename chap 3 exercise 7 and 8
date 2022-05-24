@@ -1,0 +1,27 @@
+#7 - The drunk pirate's path#
+
+import turtle
+wn = turtle.Screen()
+dp = turtle.Turtle()
+turns = [160, -43, 270, -97, -43, 200, -940, 17, -86]
+for i in turns:
+    dp.left(i)
+    dp.forward(100)
+
+wn.mainloop()
+
+#also adding here the answer to exercise 8, where you should figure out where the pirate is heading#
+#do not use as is but delete the first mainloop termination, the way i've done it here is just for recording#
+
+import turtle
+wn = turtle.Screen()
+dp = turtle.Turtle()
+print(dp.position())
+
+turns = [160, -43, 270, -97, -43, 200, -940, 17, -86]
+for i in turns:
+    dp.left(i)
+    dp.forward(100)
+
+print(dp.position())
+wn.mainloop()
