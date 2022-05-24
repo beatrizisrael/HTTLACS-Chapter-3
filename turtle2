@@ -1,0 +1,13 @@
+#4 - Suppose our turtle tess is at heading 0 — facing east. We execute the statement tess.left(3645). What does tess do, and what is her final heading?#
+#just a note that I gave the turtle the same name as last exercise, for consistency's sake"
+
+import turtle
+wn = turtle.Screen()
+tugas = turtle.Turtle()
+tugas.left(3645)
+tugas.forward(100)
+
+wn.mainloop()
+
+#she (yes it's a girl) spins around for a while and then stops at about 45degrees to the upper right#
+#the forward method is used just so show where she would be heading#
