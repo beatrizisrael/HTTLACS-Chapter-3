@@ -1,0 +1,55 @@
+#Use for loops to make a turtle draw these regular polygons:#
+#An equilateral triangle#
+
+import turtle
+wn = turtle.Screen()
+tugas = turtle.Turtle()
+tugas.shape("blank")
+tugas.color("DarkMagenta")
+tugas.pensize(5)
+for i in range(3):
+    tugas.forward(100)
+    tugas.left(120)
+
+#A square#
+
+rita = turtle.Turtle()
+rita.shape("blank")
+rita.color("DarkOliveGreen2")
+rita.pensize(5)
+rita.penup()
+rita.forward(200)
+rita.pendown()
+for i in range(4):
+    rita.forward(100)
+    rita.left(90)
+
+#A hexagon (six sides)#
+
+louis = turtle.Turtle()
+louis.shape("blank")
+louis.color("royal blue")
+louis.pensize(5)
+louis.penup()
+louis.forward(400)
+louis.pendown()
+for i in range(6):
+    louis.forward(55)
+    louis.left(60)
+
+#An octagon (eight sides)#
+
+mary = turtle.Turtle()
+mary.shape("blank")
+mary.color("turquoise")
+mary.pensize(5)
+mary.penup()
+mary.forward(-150)
+mary.pendown()
+for i in range(8):
+    mary.forward(40)
+    mary.left(45)
+
+wn.mainloop()
+
+#tried (emphasis on tried) to make them evenly spaced and sized#
