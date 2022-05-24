@@ -1,0 +1,11 @@
+#If you were going to draw a regular polygon with 18 sides, what angle would you need to turn the turtle at each corner?#
+
+import turtle
+wn = turtle.Screen()
+nine = turtle.Turtle()
+nine.pensize(4)
+for i in range(18):
+    nine.forward(50)
+    nine.left(20)
+
+wn.mainloop()
