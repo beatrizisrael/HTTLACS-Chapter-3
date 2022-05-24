@@ -1,0 +1,14 @@
+#At the interactive prompt, anticipate what each of the following lines will do, and then record what happens. Score yourself, giving yourself one point for each one you anticipate correctly:#
+
+import turtle                    #invokes the method "turtle"#
+wn = turtle.Screen()             #opens screen where turtle is going to be drawn
+tess = turtle.Turtle()           #names turtle "tess"
+tess.right(90)                   #turns tess 90 degrees clockwise
+tess.left(3600)                  #turns tenn 3600 degrees counter-clockwise; in this case she spins and stops at 10 ig
+tess.right(-90)                  #turns tess 90 degrees counter-clockwise, bc of the minus sign
+tess.speed(10)                   #sets tess' speed to 10 (faster w/ animation)
+tess.left(3600)                  #turns tess 3600 degrees counter-clockwise, again
+tess.speed(0)                    #sets tess' speed to 0, fastes possible, turns off animation
+tess.left(3645)                  #turns tess 3645 degrees counter-clockwise
+tess.forward(-100)               #moves tess backwards 100 "steps"
+#no mainloop() makes the screen not close
