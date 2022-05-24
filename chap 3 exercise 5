@@ -1,0 +1,34 @@
+#Assume you have the assignment xs = [12, 10, 32, 3, 66, 17, 42, 99, 20]#
+#Write a loop that prints each of the numbers on a new line.#
+
+list = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+for i in list:
+    print(i)
+
+#Write a loop that prints each number and its square on a new line.#
+
+list = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+for i in list:
+    print(str(i) + " and " + str(i**2))
+
+#idk if this is the best way to do it but oh well#
+
+#Write a loop that adds all the numbers from the list into a variable called total.#
+#You should set the total variable to have the value 0 before you start adding them up#
+#and print the value in total after the loop has completed.#
+
+list = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+total = 0    #not sure how necessary this really is#
+total = 12 + 10 + 32 + 3 + 66 + 17 + 42 + 99 + 20
+print("The total sum of the values of the list is " + str(total))
+
+#Print the product of all the numbers in the list.#
+
+list = [12, 10, 32, 3, 66, 17, 42, 99, 20]
+print ("The product of all the values of the list is " + str(12*10*32*3*66*17*42*99*20))
+
+#again maybe not really how you should do this#
+
+#repeated the list everytime to make it look somewhat coherent#
+#listing the numbers just the first time will wield the same results#
+#that's all folks!#
