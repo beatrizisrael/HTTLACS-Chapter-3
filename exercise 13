@@ -1,0 +1,8 @@
+#Create a turtle, and assign it to a variable. When you ask for its type, what do you get?#
+
+import turtle
+wn = turtle.Screen()
+t = turtle.Turtle()         #turtle has to be active () to get correct class
+print(type(t))
+
+wn.mainloop()
