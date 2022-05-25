@@ -1,0 +1,19 @@
+#turtle clock#
+#360/12 is 30, so that's how much i'll be turning the turtles#
+
+import turtle
+wn = turtle.Screen()
+wn.bgcolor("lightgreen")
+clock = turtle.Turtle()
+clock.color("blue")
+clock.shape("turtle")
+clock.penup()
+
+for i in range(12):
+ clock.forward(200)            #first, move t forward#
+ clock.stamp()                 #stamp the clock "number"#
+ clock.backward(200)           #move back to starting point#
+ clock.right(30)               #turn 30 degrees#
+
+
+wn.mainloop()
